@@ -1,0 +1,18 @@
+{
+  "name": "gokucommunity",
+  "version": "0.0.1",
+  "description": "The Official community bot of Goku3508's Community.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm index.js"
+  },
+  "author": "Past",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.5.0",
+    "nodemon": "^2.0.15"
+  }
+}
