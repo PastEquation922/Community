@@ -10,7 +10,7 @@ const {
 
 // Create a new client instance
 const client = new discord.Client({
-    intents: [Intents.FLAGS.GUILDS]
+    intents: [discord.Intents.FLAGS.GUILDS]
 });
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 const dotenv = require('dotenv');
